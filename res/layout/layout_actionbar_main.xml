@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+   >
+
+                <TextView
+                        android:id="@+id/tv_actionbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_centerInParent="true"
+                        android:text="@string/application_name"
+                        android:textSize="20sp"/>
+
+
+</RelativeLayout>

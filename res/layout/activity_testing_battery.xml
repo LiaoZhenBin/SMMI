@@ -1,0 +1,109 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/black1"
+    tools:context=".MAIN">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_iv_common"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_title_battery"
+            android:text="@string/text_test_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_status_battery"
+            android:text="@string/status_text_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_health_battery"
+            android:text="@string/health_test_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_voltage_battery"
+            android:text="@string/voltage_test_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_electric_battery"
+            android:text="@string/electric_text_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_level_battery"
+            android:text="@string/level_text_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_temerature_battery"
+            android:text="@string/temerature_text_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_powerType_battery"
+            android:text="@string/powerType_text_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

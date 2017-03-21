@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="testcases" translatable="false">
+        <!--  item definition: -->
+        <!--  code:type:en_name:cn_name:activity -->
+
+        <!--  type definition: -->
+        <!--  1 or 0001, phone(整机测试项) -->
+        <!--  2 or 0010, board(主板测试项) -->
+        <!--  4 or 0100, other(其它测试项) -->
+        <!--  8 or 1000, custom(定制测试项) -->
+<!--
+==================================================================================================
+  注：
+    BluetoothTest ：单元测试项的类名，不可随意更改
+    BluetoothTesting ：单元测试逻辑的类名 不可随意更改
+   “*#09***#”：工程指令，后续要合入代码中
+    1601 ：错误代码 ，需要写入测试结果文件中
+    7 ：测试类型
+    测试某一项时只将对应测试项放开
+-->
+        <item>"*#09***#:7:Bluetooth Test:蓝牙测试:1912:BluetoothTest"</item>
+        <item>"*983*473#:3:Main Camera Capture Test:后摄像头测试:1967:CameraTest"</item>
+        <item>"*983*679#:3:VGACam Capture Test:前摄像头测试:1968:CameraTest"</item>
+        <item>"*983*9434622#:7:WiFi Test:WLAN测试:1914:WifiTest"</item>
+        <item>"*983*31#:3:Display Test:显示屏测试:1908:DisplayTest"</item>
+		<!-- liaozhenbin@wind-mobi.com 2016/01/29 add start -->
+		<item>"*33333#:8:BroadMic Test:话筒测试:1930:BroadMicTest"</item>
+		<item>"*983*247#:8:Receiver Test:听筒测试:1927:ReceiverTest"</item>
+		<item>"*#*#9463*20#*#*:8:Headset Test:耳机测试:1935:HeadsetTest"</item>
+        <item>"*#*#9463*21#*#*:8:Headset Mic Test:耳机麦克测试:1929:HeadsetMicTest"</item>		
+        <item>"*#*#9463*22#*#*:8:Headset Key Test:耳机按键测试:1935:HeadsetKeyTest"</item>		
+		<!-- liaozhenbin@wind-mobi.com 2016/01/29 add end -->
+        <item>"*#19#:3:Touch Test:单指触摸测试:1937:TouchScreenTest"</item>		
+        <item>"*#19#:3:Multitouch Test:多指触摸测试:1969:MultiTouchTest"</item>
+        <item>"*983*636#:3:SDcard Test:SD卡测试:1916:SdcardTest"</item>
+        <item>"*983*637#:3:SIMcard Test:SIM卡测试:1915:SIMcardTest"</item>
+        <item>"*983*639#:3:Proximity Test:距离传感器测试:1940:ProximityTest"</item>
+
+        <item>"*983*25#:3:Battery Test:电池信息:1911:BatteryInfoTest"</item>
+        <item>"*983*07*02#:3:Keypad Test:按键测试:1905:KeypadTest"</item>
+        <item>"*983*21#:8:Speaker Test:扬声器测试:1926:SpeakerTest"</item>
+        <item>"*983*224#:3:CameraFlash Test:闪光灯测试:1909:CameraFlashTest"</item>
+        <item>"*1987#:1:ECompass Test:指南针测试:1939:CompassTest"</item>
+        <!--heliguang@wind-mobi.com 20160221 modify from ModemBus Test to Modem Test begin-->
+        <item>"*111#:1:Modem Test:Modem测试:1913:ModemTest"</item>
+        <!--heliguang@wind-mobi.com 20160221 modify from ModemBus Test to Modem Test end-->
+        <item>"*1986#:1:GSensor Test:重力传感器测试:1907:GSensorTest"</item>
+
+        <item>"*983*26#:3:Vibrator Test:震动测试:1910:VibratorTest"</item>
+        <item>"*983*638#:3:LightSensor Test:光传感器测试:1906:LightSensorTest"</item>
+        <item>"*#*#9463*000#*#*:3:Fingerprint Test:指纹测试:1999:FingerprintTest"</item>
+
+
+    </string-array>
+</resources>

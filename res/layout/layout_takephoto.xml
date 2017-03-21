@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_bar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="50dp"
+    android:layout_marginLeft="20dp"
+    android:background="#00BFFF"
+    android:layout_marginRight="20dp"
+>
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_take_photo"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</RelativeLayout>

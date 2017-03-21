@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">Emode</string>
+    <string name="version_smmitest_tools">v1.0.1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="application_name">SMMI TEST</string>
+    <string name="action_test_result">Test Result</string>
+    <string name="action_clear_cache">Clear Cache</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_about">About</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_test_again">Test Again</string>
+    <string name="text_testing">Now testing ...</string>
+
+    <string name="item_test_all_main">Test All</string>
+    <string name="item_test_single_main">Single Test</string>
+    <string name="item_upload_main">Upload</string>
+    <string name="item_help_main">Help</string>
+
+    <string name="text_test_bluetooth">Bluetooth Test</string>
+    <string name="text_test_wifi">WiFi Test</string>
+    <string name="text_test_battery">Battery Test</string>
+    <string name="text_test_ecompass">ECompass Test</string>
+    <string name="text_test_modem">Modem Test</string>
+    <string name="text_test_gsensor">GSensor Test</string>
+    <string name="text_test_keypad">Keypad Test</string>
+    <string name="text_test_touch">Touch Test</string>
+    <string name="text_test_multitouch">Multitouch Test</string>
+    <string name="text_test_vibrator">Vibrator Test</string>
+    <string name="text_test_receiver">Receiver Test</string>
+    <string name="text_test_speaker">Speaker Test</string>
+    <string name="text_test_broadmic">BroadMic Test</string>
+    <string name="text_test_main_camera">Main Camera Capture Test</string>
+    <string name="text_test_front_camera">VGACam Capture Test</string>
+    <string name="text_test_camera_flash">CameraFlash Test</string>
+    <string name="text_test_display">Display Test</string>
+    <string name="text_test_headset">Headset Test</string>
+    <string name="text_test_headset_mic">Headset Mic Test</string>
+    <string name="text_test_headset_key">Headset Key Test</string>
+    <string name="text_test_sdcard">SDcard Test</string>
+    <string name="text_test_simcard">SIMcard Test</string>
+    <string name="text_test_lightsensor">LightSensor Test</string>
+    <string name="text_test_proximity">Proximity Test</string>
+    <!--zhangtao@wind-mobi.com 2016/1/11 add  begain-->
+    <string name="title_test_battery">Battery Test</string>
+    <string name="health_test_battery">Battery health:</string>
+    <string name="voltage_test_battery">Battery voltage:</string>
+    <string name="electric_text_battery">Battery scale:</string>
+    <string name="temerature_text_battery">Battery temerature:</string>
+    <string name="level_text_battery">Battery level:</string>
+    <string name="status_text_battery">Battery status:</string>
+    <string name="powerType_text_battery">Battery powerType:</string>
+    <string name="batteryStatus_text_battery">test.....</string>
+    <string name="unknown_text_battery">unknown</string>
+    <string name="disconnect_text_battery">disconnect</string>
+    <string name="title_test_keypad">Please press Volume Up button.</string>
+    <string name="volume_up_test">Volume Up</string>
+    <string name="volume_down_test">Volume Down</string>
+    <string name="title2_test_keypad">Please press Volume Down button.</string>
+    <string name="toast_msg_keypad">Please press Volume Up button.</string>
+    <string name="title3_test_keypad">Test Success !</string>
+    <string name="title_test_camera">Please check camera flash is ok ?</string>
+    <string name="title_test_speaker">Test ....</string>
+    <string name="speaker_test_fail">Fail</string>
+    <string name="speaker_test_pass">Pass</string>
+
+   <!--  gaohui@wind-mobi.com 2016/03/17 add start-->
+    <string name="str_test_gsensor">The GSensor Test is used to test whether the gravity sensor is working or not.
+        \nTest Procedure:\n1.Roll the device.\n2.If the device detects the gravity,the directtion turns on.
+        \n3.If all of the directions turns on,this test procudure will finish automatically,else press the [FAIL] button to terminate this test procedure.</string>
+    <string name="str_test_keypad">The Keypad Test is used to test whether the Keypad is working or not.\n
+    Test Procedure:\n1.According to the notice,press specified Keypad.\n
+    2.If the keyPad works well,this test procedure will finish automatically,else press the [FAIL] bytton to terminate this test procedure.</string>
+    <string name="str_test_touch">The Touch Test is used to test the sensitivity of the touch screen by finger pressure.\n
+    Test Procedure:\n1.Draw on the screen using fingers.\nPress back button to return result,if drawing successful,press the [PASS] button,
+    else press the [FAIL] buton to terminate this test procedure.</string>
+    <string name="str_test_multitouch">The Multiple Touch is used to test whether the multiple touch function of the panel is working or not.\n
+    Test Procedure:\n1.Put the fingers on the screen.\n2.If the multitouch function works well,this test procedure will finish automatically,else press the [FAIL] button to
+    terminate the test procedure.</string>
+    <string name="str_test_vibrator">The Vibrator si used to test whether the vibrator function of this device is working or not.\n
+    Test Procedure:\n1.Press button to control vibrator on or vibrator off.\n
+        2.If the vibrator funtion works well,press [PASS] button,else press the [FAIL] button to terminate this test procedure.</string>
+   <!-- gaohui@wind-mobi.com 2016/03/17 add end-->
+
+    <!--zhangtao@wind-mobi.com 2016/1/11 add  end-->
+    <!--zhangtao@wind-mobi.com  2016/1/20 add  begain-->
+    
+    <string name="camera_flash_button_fail">Fail</string>
+    <string name="camera_flash_button_Pass">Pass</string>
+    <string name="keypad_text_line">_______________________________________________</string>
+    <!--zhangtao@wind-mobi.com 2016/1/20 add end-->
+
+    <string name="main_text_text1">%</string>
+    <string name="main_text_usage">CPU Usage</string>
+    <string name="main_text_battery_level">Battery Level</string>
+    <!--zhangtao@wind-mobi.com 2016/8/12 add  begin-->
+    <string name="friendly_remind">Please shake your hands to remove the external magnetic field</string>
+    <!--zhangtao@wind-mobi.com 2016/8/12 add  end-->
+    <!--liuyang@wind-mobi.com 2016/1/18 add  begin-->
+    <string name="dialog_headsetmic_in">please plug your earphone~</string>
+    <string name="text_headsetmic_record">Recording...</string>
+    <!-- hubo@wind-mobi.com begin Bug#152374 2017/1/19 mod# -->
+    <!--<string name="text_headsetmic_play">Palying...</string>-->
+    <string name="text_headsetmic_play">Playing...</string>
+    <!-- hubo@wind-mobi.com end Bug#152374 2017/1/19 mod# -->
+
+    <string name="dialog_headsetmic_nofound">No headset found</string>
+    <string name="dialog_title">Test Finished</string>
+    <string name="dialog_juge">Test finished.Please make a judgement.</string>
+    <string name="tv_lsensor_closeinfo">\n Please move your phone close to a light. \n_______________________________________</string>
+    <string name="tv_lsensor_awayinfo">Please move your phone away from light and cover the top half of it using a hand. \n_______________________________________</string>
+    <string name="tv_lsensor_success">\n Test Success ! \n_______________________________________</string>
+    <string name="strong_light_test">Sense strong light(ADC＞300)</string>
+    <string name="weak_light_test">Sense weak light(ADC＜5)</string>
+    <string name="about_legalinfo_01">ASUSTeK Computer Inc</string>
+    <string name="about_legalinfo_02">Personal Mobile Device BU</string>
+    <string name="about_website">http://www.asus.com.tw</string>
+    <string name="about_modelname_show">Model Name</string>
+    <string name="about_version_show">Version</string>
+    <string name="about_Legalinfo_show">Legal Information</string>
+    <string name="about_website_show">Website</string>
+    <string name="about_longline">_______________________________________________</string>
+    <string name="btn_fail">Fail</string>
+    <string name="tv_vibrator">Vibrator</string>
+
+    <!--liuyang@wind-mobi.com 2016/1/18 add  end-->
+
+    <string name="pass_result_bluetooth">The Bluetooth Test is working well</string>
+    <string name="failed_result_bluetooth">The Bluetooth Test is failed</string>
+    <string name="title_test_bt">Bluetooth Test</string>
+    <string name="status_test_bt">Bluetooth Status: </string>
+    <string name="address_test_bt">MAC Address:</string>
+    <string name="devicelist_test_bt">Device List:</string>
+    <string name="status_on_bt">"On"</string>
+    <string name="status_off_bt">"Off"</string>
+    <string name="status_scanning_bt">"Scanning..."</string>
+    <string name="no_bt_device">"Scanning is finished, didn't find the Bluetooth device!"</string>
+    <string name="unknown">"unknown"</string>
+
+    <string name="title_result_test">Test Result</string>
+    <string name="tv_passed_result">"Passed:"</string>
+    <string name="tv_failed_result">"Failed:"</string>
+
+    <string name="text_pass_result"> is working well</string>
+    <string name="text_fail_result"> is failed</string>
+<!-- huangzhijian@wind-mobi.com 2016/01/18  add begin -->
+    <string name="text_headsetkey_dialogtitle">find no earphone</string>
+    <string name="text_headsetkey_keyon">please press the hook key~</string>
+    <string name="text_headsetkey_dialogtext">can not find the earphone,please plug your earphone~</string>
+    <string name="memory_usage_rate">Memory Usage Rate</string>
+    <string name="text_headsetkey_fail">Fail</string>
+    <string name="text_multitouch_fail">Fail</string>
+<!-- huangzhijian@wind-mobi.com 2016/01/18  add start -->
+
+    <!--liaozhenbin@wind-mobi.com 2016/1/18 add  begin-->
+    <string name="status_test_wifi">Wifi Status: </string>
+    <string name="address_test_wifi">MAC Address: </string>
+    <string name="devicelist_test_wifi">Device List: </string>
+    <string name="status_on_wifi">"On"</string>
+    <string name="status_off_wifi">"Off"</string>
+    <string name="toast_display">Please click the screen</string>
+    <!-- hubo@wind-mobi.com begin Bug#152374 2017/1/19 mod# -->
+    <!--<string name="text_headset_play">Palying...</string>-->
+    <string name="text_headset_play">Playing...</string>
+    <!-- hubo@wind-mobi.com end Bug#152374 2017/1/19 mod# -->
+
+    <string name="text_broadmic_record">Recording...</string>
+    <!--liaozhenbin@wind-mobi.com 2016/1/18 add  end-->
+    <!--luyuan@wind-mobi.com 20160112 mod begin-->
+    <string name="pass_result_sdcard">The Sdcard is working well</string>
+    <string name="failed_result_sdcard">The Sdcard test is failed</string>
+    <string name="stat_null">stat:null</string>
+    <string name="action">action:</string>
+    <string name="externalPath">externalPath:</string>
+    <string name="title_test_sd">Sdcard Test</string>
+    <string name="no_sd_device">"Scanning is finished, didn't find the Sdcard device!"</string>
+    <string name="tip_insert_sdcard">Sdcard has inserted!</string>
+    <string name="total_test_sd">Sdcard Total: </string>
+    <string name="available_test_sd">Sdcard Available: </string>
+    <string name="used_test_sd">Sdcard Used: </string>
+    <string name="sd_unmounted">unmounted </string>
+    <string name="status_test_sd">Sdcard Status: </string>
+    <string name="status_scanning_sd">"Scanning..."</string>
+    <!--luyuan@wind-mobi.com 20160112 mod end-->
+    <!--luyuan@wind-mobi.com 20160114 mod begin-->
+    <string name="pass_result_simcard">The simcard is working well !</string>
+    <string name="failed_result_simcard">The simcard test is failed !</string>
+    <string name="SIMcardTest"> SIMcard Test</string>
+    <string name="find_sim">FIND SIMcard</string>
+    <string name="no_sim">NO SIMcard</string>
+    <string name="title_test_sim">SIMcard Test</string>
+    <string name="sim1_state">SIMcard1_state:</string>
+    <string name="sim2_state">SIMcard2_state:</string>
+    <string name="imsi_1">IMSI1_ID: </string>
+    <!-- hubo@wind-mobi.com begin Bug#152375 2017/1/19 mod# -->
+    <!--<string name="imsi_2"> IMSI2_ID</string>-->
+    <string name="imsi_2"> IMSI2_ID:</string>
+    <!-- hubo@wind-mobi.com end Bug#152375 2017/1/19 mod# -->
+    
+    <string name="proximity_test">Proximity Test</string>
+    <!--luyuan@wind-mobi.com 20160114 mod end-->
+
+    <!--uyuan@wind-mobi.com 20160115 mod begin -->
+    <string name="title_test_proximity">Please move your hand over the top half of your phone! \n_______________________________________</string>
+    <string name="title_proximity_away">Please move your hand away from the top half of your phone! \n_______________________________________</string>
+    <string name="tv_proximity_success">\n Test Success ! \n_______________________________________</string>
+    <string name="Near">Near</string>
+    <string name="Away">Away</string>
+	<!--uyuan@wind-mobi.com 20160115 mod end -->
+	<!--uyuan@wind-mobi.com 20160128 mod begin -->
+	<string name="Fail">Fail</string>
+	<string name="pass">pass</string>
+	<!--uyuan@wind-mobi.com 20160128 mod end -->
+    
+	
+	 <string name="percent">%</string>
+	 <string name="text_battery_level">Battery Level</string>
+	 <string name="text_usage">  Usage</string>
+      <!--heliguang@wind-mobi.com 20160120 mod begin -->
+      <string name="compass_pass">pass</string>
+      <string name="compass_fail">fail</string>
+      <string name="touch_iv_canvas">Please move your finger on the screen. Press back or menu to choose pass fail.</string>
+      <!--heliguang@wind-mobi.com 20160120 mod end -->
+
+
+    <!-- xiejiaming@wind-mobi.com 20160316 add begin -->
+    <string name="description_receiver_test">
+        "The Receiver Test is used to test whether receiver function is working or not.\nTest Procedure:\n1.Receiver of device will make a sound.\n2.If the receiver function works well,press the [PASS] button,else press the [FAIL} button tot terminate this test procedure."
+    </string>
+
+    <string name="desctiption_boardmic_test">
+        "The Board Mic Test is used to test whether board mic is working or not.\nTest Procedure:\n1.Press [START] button to record.\n2.According to the result played after recording,if the mic function of headset works well,press the [PASS] button,else press the [FAIL} button tot terminate this test procedure."
+    </string>
+
+    <string name="description_speaker_test">
+        "The Speaker Test is used to test whether the speacker function of this device is working or not.\nTest Procedure:\n1.Press [START] button to broadcast sound.\n2.If the speacker function works well,press the [PASS] button,else press the [FAIL} button tot terminate this test procedure."
+    </string>
+
+    <string name="description_maincamera_test">
+        "The Main Camera Capture Test is used to test whether the main camera in device is working or not.\nTest Procedure:\n1.Press [START] button to b capture photo.\n2.If photo capture successful,press the [PASS] button,else press the [FAIL} button tot terminate this test procedure."
+    </string>
+
+	 <string name="description_VGACam_test">
+         "The VGACam Capture Test is used to test whether theVGACam Capture function of this device is working or not.\nTest Procedure:\n1.Press [START] button to b capture photo.\n2.If photo capture successful,press the [PASS] button,else press the [FAIL} button tot terminate this test procedure."
+     </string>
+    <!-- xiejiaming@wind-mobi.com 20160316 add end -->
+
+    <!--  gaohui@wind-mobi.com 2016/04/07 add start -->
+     <string name="str_test_bluetooth">
+        "The Bluetooth Test is used to test whether Bluetooth is working or not.\n(This test procedure will be started automatically without any manual operations.)"
+     </string>
+    <string name="str_test_wifi">
+        "The Wi-Fi Test is used to test whether the Wi-Fi function of this device is working or not.\n(This test procedure will be started automatically without any manual operations.)"
+     </string>
+    <string name="str_test_battery">
+        "The Battery Test is used to test whether a battery is existing in device or not.\n(This test procedure will be started automatically without any manual operations.)"
+     </string>
+    <string name="str_test_ecompass">
+        "The ECompass Test is used to test whether the ECompass sensor is working or not.\n(This test procedure will be started automatically without any manual operations.)"
+     </string>
+     <string name="str_test_modem">
+        "The Modem Test is used to test whether the modem on device is working or not.\n(This test procedure will be started automatically without any manual operations.)"
+     </string>
+     <string name="str_test_cameraflash">
+         "The CameraFlash Test is used to test whether the RGB color model and brightness of LCD are working or not.\nTest Procedure:1.When start to test,device will open the camera flash automatically.\n2.If the camera flash functions works well ,press the [PASS] button,else press the [FAIL] button to terminate this test procedure."
+     </string>
+    <string name="str_test_display">
+         "The Display Test is used to test whether the camera flash is working or not.\nTest Procedure:1.Click screen to change background.\n2.If the display function works well ,press the [PASS] button,else press the [FAIL] button to terminate this test procedure."
+     </string>
+    <string name="str_test_headset">
+         "The Headset Test is used to test whether the left and right chanels of the headset are working or not.\nTest Procedure:1.Connect headset to device adn Press [START] button.\n2.Broadcast sound to left channel and Broadcast to right channel.\n3.If the headset function works well ,press the [PASS] button,else press the [FAIL] button to terminate this test procedure."
+     </string>
+    <string name="str_test_headsetmic">
+        "The Headset Mic Test is used to test whether the mic of headset is working or not.\nTest Procedure:1.Connect headset to device.\n2.Press START button,start to record.\n3.According to the result played after recoding,if the mic function of headset works well,press the [PASS] button,else press the [FAIL] button to terminate the test procedure."
+     </string>
+     <string name="str_test_headsetkey">
+        "The Headset Main Key Test is used to test the key on headset is working or not.\nTest Procedure:1.Connect headset to device.\n2.Click the key on headset.\n3.If the key function of the headset works well ,this test procedure will finish automatically,else press the [FAIL] button to terminate the test procedure."
+     </string>
+    <string name="str_test_sdcard">
+        "The SD Card Test is used to test whether the SD Card reader function is working or not.\nTest Procedure:\n1.Put the SD Card in the device.\n2.The test procedure will be started automatically without any manual operations."
+     </string>
+    <string name="str_test_simcard">
+        "The SIMcard Test is used to test whether SIM card is connecting to the device or not.\nTest Procedure:\n1.Put the SIM card in the device.\n2.The test procedure will be started automatically without any manual operations."
+     </string>
+    <string name="str_test_lightsensor">
+        "The LightSensor is used to test whether the light sensor is working or not.\nTest Procedure:\n1.According to the notice,put the device near to or far away the light.\n2.If the light sensor function works well,this test procedure will finish automatically,else press the [FAIL] button to terminate this test procedure."
+     </string>
+    <string name="str_test_proximity">
+        "The Proximity Test is used to test whether the proximity sensor is working or not.\nTest Procedure:\n1.According to the notice,put your hand near to or far away the sensor of the device.\n2.If the proximity sensor function works well,this test procedure will finish automatically,else press the [FAIL] button to terminate this test procedure. "
+     </string>
+    <!--  gaohui@wind-mobi.com 2016/04/07 add end -->
+
+    <string name="title_test_fp">Fingerprint Test</string>
+    <string name="test_fp_hw_available">Hardware is available</string>
+    <string name="test_fp_hw_unavailable">Hardware is unavailable</string>
+	<string name="str_test_fingerprint">
+        "The FingerPrint Test is used to test whether FingerPrint is working or not.\n(This test procedure will be started automatically without any manual operations.)"
+    </string>
+  <string name="msg_upload_nottest">Check at least one of test item is executed.</string>
+    <string name="msg_upload_dialog_ok">ok</string>
+    <string name="msg_upload_dialog_cancel">cancel</string>
+    <string name="msg_upload_dialog_title_nonetwork">Not Network</string>
+    <string name="msg_upload_dialog_mes_nonetwork">Please check your network settings.</string>
+    <string name="title_upload_dialog">Upload Result: </string>
+    <string name="text_upload_dialog_result">Test Result: </string>
+    <string name="text_upload_dialog_errorcode">Problem Code :</string>
+    <string name="text_upload_dialog_ssn">Input SSN,Tester ID and Server</string>
+    <string name="hint_upload_dialog_id">Tester ID</string>
+    <string name="flag_upload_response_success">SUCCESS</string>
+    <string name="msg_upload_response_success">Upload Success</string>
+    <string name="msg_upload_response_success_reset">Reset Test Result</string>
+    <string name="msg_upload_response_failed">Upload Failed</string>
+    <string name="msg_upload_input_error">Input Data Error</string>
+    <!--add by sunxiaolong@wind-mobi.com for #149740 begin-->
+    <string name="str_camera_exception_subscription">camera hardware exception</string>
+    <!--add by sunxiaolong@wind-mobi.com for #149740 end-->
+
+    <!-- xuyi@wind-mobi.com 20170119 add for bug#152388 begin -->
+    <string name="help_coming_soon">Coming soon ...</string>
+    <!-- xuyi@wind-mobi.com 20170119 add for bug#152388 end -->
+</resources>

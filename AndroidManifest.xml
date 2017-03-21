@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.asus.atd.smmitest" android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--luyuan@wind-mobi.com 20160119 mod begin-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!--luyuan@wind-mobi.com 20160119 mod end-->
+
+    <!--luyuan@wind-mobi.com 20160114 mod begin-->
+    <!--添加sim卡权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--luyuan@wind-mobi.com 20160114 mod end-->
+    <!--liaozhenbin@wind-mobi.com 20160112 mod begin-->
+    <!--添加权限问题-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!--liaozhenbin@wind-mobi.com 20160112 mod end-->
+    <!--huangzhijian@wind-mobi.com 20160112 mod begin-->
+    <!--添加权限问题-->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <!--huangzhijian@wind-mobi.com 20160112 mod end-->
+    <!--liuyang@wind-mobi.com 20160114 mod begin-->
+    <!--添加权限问题-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--liuyang@wind-mobi.com 20160114 mod end-->
+    <!--heliguang@wind-mobi.com add for ModemTest 20160121  begin-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--heliguang@wind-mobi.com add for ModemTest 20160121  end-->
+    <uses-feature android:name="android.hardware.camera"/>
+
+    <!--liyong01@wind-mobi.com add for 20160622 -s-->
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!--liyong01@wind-mobi.com add for 20160622 -s-->
+
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/asus_icon_self_diagnostic"
+            android:label="@string/application_name"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.asus.atd.smmitest.main.MAIN"
+                android:label="@string/application_name"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <!--
+                        <category android:name="android.intent.category.LAUNCHER" />
+                -->
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.asus.atd.smmitest.main.SingleTestActivity"
+                android:label="@string/item_test_single_main"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--zhangtao@wind-mobi.com  add 2016/1/9 begain-->
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.BatteryInfoTesting"
+                android:label="=Single Test"
+                android:screenOrientation="portrait">
+            <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        </activity>
+        <!--zhangtao@wind-mobi.com add 2016/1/9 end-->
+
+
+        <!--zhangtao@wind-mobi.com  add 2016/1/11 begain-->
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.KeypadTesting"
+                android:label="Single Test"
+                android:screenOrientation="portrait">
+            <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        </activity>
+        <!--zhangtao@wind-mobi.com add 2016/1/11 end-->
+
+        <!--zhangtao@wind-mobi.com add  2016/1/13  begain-->
+
+        <activity android:name="com.asus.atd.smmitest.testcase.SpeakerTesting"
+                  android:label="Single Test"
+                  android:screenOrientation="portrait">
+            <!--liaozhenbin@wind-mobi.com add 2016/7/7--></activity>
+
+        <!--zhangtao@wind-mobi.com add  2016/1/13  end-->
+
+        <!--liuyang@wind-mobi.com add  2016/1/14  begain-->
+        <activity android:name="com.asus.atd.smmitest.testcase.VibratorTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <!--liuyang@wind-mobi.com add  2016/1/14  end-->
+        <!--liuyang@wind-mobi.com add  2016/1/15  begain-->
+        <activity android:name="com.asus.atd.smmitest.testcase.HeadsetMicTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity android:name="com.asus.atd.smmitest.testcase.LightSensorTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity
+                android:name="com.asus.atd.smmitest.main.AboutActivity"
+                android:label="@string/action_about">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--liuyang@wind-mobi.com add  2016/1/15  end-->
+        <!--liuyang@wind-mobi.com modify 2016/3/10  begin-->
+        <activity android:name="com.asus.atd.smmitest.testcase.GSensorTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liuyang@wind-mobi.com modify 2016/3/10  end-->
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.CameraFlashTesting"
+                android:label="Single Test"
+                android:screenOrientation="portrait">
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7--></activity>
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.BluetoothTesting"
+                android:label="@string/item_test_single_main"
+                android:screenOrientation="portrait">
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.HeadsetKeyTesting"
+                android:label="@string/item_test_single_main"
+                android:screenOrientation="portrait">
+            <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.asus.atd.smmitest.main.ResultActivity"
+                android:label="@string/title_result_test"
+                android:screenOrientation="portrait">
+            <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.CommonTestActivity"
+                android:label="@string/title_result_test"
+                android:screenOrientation="portrait">
+            <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.CameraTesting"
+                android:label="@string/text_test_main_camera"
+                android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.asus.atd.smmitest.testcase.ShowPictureAct"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <!--luyuan@wind-mobi.com 20160111 mod begin-->
+        <activity android:name="com.asus.atd.smmitest.testcase.SdcardTesting"
+                  android:label="Single Test"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+
+        <activity android:name="com.asus.atd.smmitest.testcase.SIMcardTesting"
+                  android:label="Single Test"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+
+        <activity android:name="com.asus.atd.smmitest.testcase.ProximityTesting"
+                  android:label="Single Test"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <!--luyuan@wind-mobi.com 20160111 mod end-->
+        <!--heliguang@wind-mobi.com add  2016/1/14  begain-->
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.CompassTesting"
+                android:label="Single Test"
+                android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.ReceiverTesting"
+                android:label="Single Test"
+                android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.TouchScreenTesting"
+                android:label="Single Test"
+                android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.ModemTesting"
+                android:label="Single Test"
+                android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <!--heliguang@wind-mobi.com add  2016/1/14  end-->
+
+        <!--liaozhenbin@wind-mobi.com 20160129 add start -->
+        <activity android:name="com.asus.atd.smmitest.testcase.DisplayTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity android:name="com.asus.atd.smmitest.testcase.WifiTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity android:name="com.asus.atd.smmitest.testcase.BroadMicTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity android:name="com.asus.atd.smmitest.testcase.HeadsetTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity android:name="com.asus.atd.smmitest.testcase.FingerprintTesting"
+                  android:screenOrientation="portrait"/>
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+        <activity
+                android:name="com.asus.atd.smmitest.testcase.MultiTouchTesting"
+                android:label="@string/item_test_single_main"
+                android:screenOrientation="portrait">
+        <!--liaozhenbin@wind-mobi.com add 2016/7/7-->
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--liaozhenbin@wind-mobi.com 20160108 mod begin-->
+        <!--注册WiFiTesting Activity-->
+        <!--liaozhenbin@wind-mobi.com 20160108 mod end-->
+
+        <!-- 注册广播接收器 -->
+        <receiver android:name="com.asus.atd.smmitest.receiver.ModuleTestReceiver"/>
+        <receiver android:name="com.asus.atd.smmitest.receiver.InstructionReceiver">
+            <intent-filter>
+                <action android:name="com.wind.intent.action.EMODE"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.asus.atd.smmitest.service.IntentService">
+            <intent-filter>
+                <action android:name="com.wind.intent.action.EMODE_UPDATE_RESULT_FILE"/>
+                <action android:name="com.wind.intent.action.EMODE_INIT_RESULT_FILE"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

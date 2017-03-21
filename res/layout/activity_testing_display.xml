@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--liaozhenbin@wind-mobi.com 20160111 mod begin--><!--创建activity_testing 布局文件-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black1"
+    >
+
+<ImageView
+    android:id="@+id/iv_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    />
+
+</LinearLayout><!--liaozhenbin@wind-mobi.com 20160111 mod end-->
